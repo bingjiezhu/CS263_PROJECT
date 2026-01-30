@@ -225,6 +225,7 @@ You can also manually clone and set:
 ```bash
 export FINROBOT_PATH=/path/to/FinRobot
 ```
+Note: the `third_party/` directory is excluded from version control in this repo, so it will not appear after cloning from GitHub.
 
 ## Troubleshooting
 - Rate limit / 429: reduce `max_samples` and retry later.
