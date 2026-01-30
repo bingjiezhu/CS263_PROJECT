@@ -82,6 +82,8 @@ ollama serve
 ollama pull qwen2.5:3b
 ```
 
+If you want to use Ollama Cloud models (e.g., `gpt-oss:120b-cloud`), make sure you are logged in with `ollama login` and verify access with `ollama run <model> "hi"`.
+
 ### 3) Update `configs/eval_config.yaml`
 ```yaml
 provider: ollama
@@ -181,6 +183,11 @@ Generated under `outputs/runs/<run_id>/`:
 
 Run folder naming convention:
 `<provider>-<model>__<datasets>__n<samples>__<timestamp>`
+
+## Reproducibility Notes
+- LLM outputs are not perfectly deterministic, even at `temperature: 0`. Exact metrics can vary slightly across runs.
+- To reproduce the included results as closely as possible, use the same provider/model, dataset config, seed, and temperature from each run’s `config_snapshot.yaml`.
+- Cloud-hosted models (e.g., `gpt-oss:120b-cloud`) require a logged-in Ollama account and may be subject to rate limits.
 
 ## Ablations
 - `agent_no_critic`: disables the Critic step in the FinRobot workflow (Planner → Solver → Final only). This isolates the effect of self-critique on performance.
