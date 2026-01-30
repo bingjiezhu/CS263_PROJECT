@@ -1,0 +1,15 @@
+.env
+.cache/
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+finrobot_codegen/
+third_party/
+src/finrobot_pixiu_eval.egg-info/
+.baiduyun.uploading.cfg

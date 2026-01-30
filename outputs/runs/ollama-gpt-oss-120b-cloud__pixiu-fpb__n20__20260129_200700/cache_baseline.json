@@ -1,0 +1,422 @@
+{
+  "114529299995477b76bd0828693f0564961afa487d07cf61c4d407aa8351325c": {
+    "id": "pixiu_fpb-fpb3901",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The company anticipates its turnover for the whole 2010 to surpass that of the previous year when it was EUR 67.1 million .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "b49307964338249a651a805371a24c348fc52794a5bb12496fb95f2dadccc83e": {
+    "id": "pixiu_fpb-fpb3906",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: ` By separating side businesses we will be able to faster expand and develop Tapro retail network .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "324f8a7fa40538cb24dd6e6d579f4819c498b66bb95f66897b3103f80b8ef630": {
+    "id": "pixiu_fpb-fpb3908",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: In addition to fireplace exports , demand for lining stone has exceeded the level of the earlier part of the year and will continue to be clearly brisker for the remainder of the year .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "853982bb200a2cbd58cb9b286d839d68101d36efe9aadc36283f6e7ab3f4f6f1": {
+    "id": "pixiu_fpb-fpb3965",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The company 's operating income ( EBIT ) totalled EUR 0.0 mn , up from EUR -0.3 mn year-on-year .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "041b2b8eee340e4001908013adad046104dd6231916c8567749306581eb77cb9": {
+    "id": "pixiu_fpb-fpb3971",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Cost savings will then rise to some 20 mln eur a year from 2007 , OKO said .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "bc73ee5aec2183ef3fb6075701f22cc2260a4f5a1d6c6e3c8d124acb50f243a1": {
+    "id": "pixiu_fpb-fpb3980",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Ruukki has signed a contract to deliver and install the steel structures for a bridge over the Kyronsalmi strait in Savonlinna , Finland .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "5b7e786fb252bf7352978a7cde1ecb795c24b3c455cb25218a869806a305d434": {
+    "id": "pixiu_fpb-fpb3990",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: - UPM-Kymmene upgraded to ` in-line ' from ` underperform ' by Goldman Sachs .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "bd69b711acc328e791cd741044a2ded5481b106535a8045f3b09e136829baead": {
+    "id": "pixiu_fpb-fpb4018",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Sponda will record a profit from the sale of 8.5 mln euro ($ 12.4 mln).\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "7328199303430d033bf9737b8bdc0160015f917939d19b53db3ac0c798491b5b": {
+    "id": "pixiu_fpb-fpb4104",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Operating profit rose to EUR 4.7 mn from EUR 4.6 mn .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "5bea34c697ee6a0a3009eebe08383e4ec2fb15a1d9a0183c8c1584082b06541a": {
+    "id": "pixiu_fpb-fpb4126",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Kalnapilio-Tauro Grupe ( Kalnapilis-Tauras Group ) , which is owned by Denmark 's Royal Unibrew , raised its market share to 25.18 percent from 23.74 percent , as beer sales for the seven months jumped by 14.5 percent to 40.5 million liters .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "ebacd518ecc2a490310e10f3290213af5ecc0f3a23ac2d3b34adfddc009cfb78": {
+    "id": "pixiu_fpb-fpb4157",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Operating loss before non-recurring items was EUR 0.9 mn , compared to a profit of EUR 11.5 mn in 2008 .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "C",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "negative",
+      "label_index": 2
+    }
+  },
+  "078dca3db5307d5c05142998d09629aa60d11b6274e7438b34da4b7ade7bbcde": {
+    "id": "pixiu_fpb-fpb4308",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The emerging markets that Raisio has chosen to enter so far are marked by relatively low per capita food consumption .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "26e1ebfdbfda01f1074a0b205c5cafe8b37bd69a2401be1ef72aa84503ad7947": {
+    "id": "pixiu_fpb-fpb4434",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: `` Of course , we are in talks with all those coming up with new projects that involve material handling , '' Konecranes President and CEO Pekka Lundmark said , when asked whether it was talking to Reliance Industries for supplying equipment to its upcoming refinery in Jamnagar .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "683322bb04117239031291bf758d2469d1e1416b2cb1c60a33a2d386233014a6": {
+    "id": "pixiu_fpb-fpb4480",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: No service pricing details were disclosed .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "f08be2f27b7fbbaaa9e7a22240c838f27420a0e5bdcc3417e649420127a6491b": {
+    "id": "pixiu_fpb-fpb4530",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: `` This agreement is a direct result of LCC 's strategy and plan that was announced earlier this year , '' said Dean Douglas , LCC 's chief executive officer .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "fae290a5a239482b8bd0475cf29860fa507e496a8640e6f5c24178acf197c428": {
+    "id": "pixiu_fpb-fpb4568",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Below are unaudited consolidated results for Aspocomp Group under IFRS reporting standards .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "fe693350be54d8177a17c12f5271cba45a4f16d954e5e908cf725b991847bd10": {
+    "id": "pixiu_fpb-fpb4630",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: No financial details were revealed .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "2a75bd1208274624b1931dced4a129839be73e0b1cfb2c8e1d49cf72a7469077": {
+    "id": "pixiu_fpb-fpb4634",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The appointments will be in force until the new CEO has been appointed .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "ebfda8e8a525b99c24b4d9bee2d3b4ddd35bb46bcca417a31db04ad22d872e09": {
+    "id": "pixiu_fpb-fpb4635",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The first phase will be completed by the end of 2012 .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "805be09eefa0ee176120c747f5bb56a5d79d05516426b2a1173d5b39b36c1b47": {
+    "id": "pixiu_fpb-fpb4789",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The interim report for the first quarter is published on May 8 , 2009 .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "accuracy": 0.35,
+  "macro_f1": 0.2,
+  "n": 20,
+  "invalid_rate": 0.0
+}

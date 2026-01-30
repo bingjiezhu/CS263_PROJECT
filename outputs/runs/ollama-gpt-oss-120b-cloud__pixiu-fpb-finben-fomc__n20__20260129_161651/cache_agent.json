@@ -1,0 +1,1082 @@
+{
+  "d4562807edea9a80060c6166364881231c9dc7526df91e84888a7b0c67aff0fd": {
+    "id": "finben_fomc-fomc112",
+    "task_type": "multiple_choice",
+    "question": "Scrutinize the sentence provided from a central bank's press release. Determine it as HAWKISH if it proposes a tightening of monetary policy, DOVISH if it discloses an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: However, with longer-term interest rates already very low, there did not appear to be a need for enhanced forward guidance at this juncture or much scope for forward guidance to put additional downward pressure on yields.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "Answer: C\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nScrutinize the sentence provided from a central bank's press release. Determine it as HAWKISH if it proposes a tightening of monetary policy, DOVISH if it discloses an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: However, with longer-term interest rates already very low, there did not appear to be a need for enhanced forward guidance at this juncture or much scope for forward guidance to put additional downward pressure on yields.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The response is incorrect for two reasons:\n\n1. **Format violation** \u2013 The answer must be a single letter (A, B, or C). The solver returned \u201cB\u201d on one line and \u201cC\u201d on another, which is invalid.\n2. **Incorrect classification** \u2013 The sentence states there is no need for enhanced forward guidance and little scope to push yields lower, implying no further easing. This aligns with a **neutral** stance rather than a hawkish one. The correct label is **C** (neutral).",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: C\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "836d96ddc1e8d74a07e96f08cb0168574842898c27456e44c5c64d1b9de18a0f": {
+    "id": "pixiu_fpb-fpb4635",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The first phase will be completed by the end of 2012 .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The first phase will be completed by the end of 2012 .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The assistant\u2019s answer is correct. \u201cThe first phase will be completed by the end of 2012.\u201d is a factual statement with no inherent positive or negative sentiment, so the appropriate label is neutral (B).",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "7adabd5ea6dae527762fe659fd2c3a35107843f34c077e3b2da9b5d304e4e7c7": {
+    "id": "finben_fomc-fomc287",
+    "task_type": "multiple_choice",
+    "question": "Review the sentence from a central bank's communiqu\u00e9. Designate it as HAWKISH if it expresses a tightening of monetary policy, DOVISH if it reveals an easing of monetary policy, or NEUTRAL if the stance is detached. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Certainly, if we are to remain preeminent in transforming knowledge into economic value, the U.S. system of higher education must remain the world's leader in generating scientific and technological breakthroughs and in preparing workers to meet the evolving demands for skilled labor.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "Answer: C\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nReview the sentence from a central bank's communiqu\u00e9. Designate it as HAWKISH if it expresses a tightening of monetary policy, DOVISH if it reveals an easing of monetary policy, or NEUTRAL if the stance is detached. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Certainly, if we are to remain preeminent in transforming knowledge into economic value, the U.S. system of higher education must remain the world's leader in generating scientific and technological breakthroughs and in preparing workers to meet the evolving demands for skilled labor.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: C\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "297f2c1f10bb3a6195c1a5fbfbb56f722c9f5c4f5d2a4154ae721ffa696bf39f": {
+    "id": "finben_fomc-fomc101",
+    "task_type": "multiple_choice",
+    "question": "Review the sentence from a central bank's communiqu\u00e9. Designate it as HAWKISH if it expresses a tightening of monetary policy, DOVISH if it reveals an easing of monetary policy, or NEUTRAL if the stance is detached. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: However, indicators of economic activity in Japan and Brazil remained weak.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "Answer: C\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nReview the sentence from a central bank's communiqu\u00e9. Designate it as HAWKISH if it expresses a tightening of monetary policy, DOVISH if it reveals an easing of monetary policy, or NEUTRAL if the stance is detached. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: However, indicators of economic activity in Japan and Brazil remained weak.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: C\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "4450e3326b84b4cf81861616dfb7fade316c1efaf12b76f5028dbce16eb787e0": {
+    "id": "finben_fomc-fomc445",
+    "task_type": "multiple_choice",
+    "question": "Consider the below statement from a central bank's bulletin. Identify it as HAWKISH if it supports a tightening of monetary policy, DOVISH if it hints at an easing of monetary policy, or NEUTRAL if the stance is balanced. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: To do that you've got to have price stability, and we've got to get back to price stability so that we can have a labor market where people's wages aren't being eaten up by inflation and where we can have a long expansion too.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nConsider the below statement from a central bank's bulletin. Identify it as HAWKISH if it supports a tightening of monetary policy, DOVISH if it hints at an easing of monetary policy, or NEUTRAL if the stance is balanced. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: To do that you've got to have price stability, and we've got to get back to price stability so that we can have a labor market where people's wages aren't being eaten up by inflation and where we can have a long expansion too.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver\u2019s answer \u201cB\u201d correctly identifies the statement as hawkish according to the provided mapping. No correction is needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "hawkish",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "3ecc2c37f776252c47244f90fd370a8ad81ac310be12a977ddfe86a5b7cbfba5": {
+    "id": "pixiu_fpb-fpb4018",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Sponda will record a profit from the sale of 8.5 mln euro ($ 12.4 mln).\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Sponda will record a profit from the sale of 8.5 mln euro ($ 12.4 mln).\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "e6f0b9b8a37b9136e8f78d18adade1695888dffaf739c4852497a31f0d6103f2": {
+    "id": "finben_fomc-fomc301",
+    "task_type": "multiple_choice",
+    "question": "Dissect the given sentence from a central bank's transcript. Tag it as HAWKISH if it denotes a tightening of monetary policy, DOVISH if it implies an easing of monetary policy, or NEUTRAL if the stance is impartial. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: That ex post relationship, the correlation between actual--instead of intended--domestic saving and domestic investment was the object of the seminal work by Feldstein and Horioka a quarter century ago.4 Without the evident worldwide fall in home bias over the past decade, noted earlier, the United States would not have been able to finance its recent current account deficits, and, accordingly, these deficits would have been smaller.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "Answer: C\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nDissect the given sentence from a central bank's transcript. Tag it as HAWKISH if it denotes a tightening of monetary policy, DOVISH if it implies an easing of monetary policy, or NEUTRAL if the stance is impartial. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: That ex post relationship, the correlation between actual--instead of intended--domestic saving and domestic investment was the object of the seminal work by Feldstein and Horioka a quarter century ago.4 Without the evident worldwide fall in home bias over the past decade, noted earlier, the United States would not have been able to finance its recent current account deficits, and, accordingly, these deficits would have been smaller.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: C\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "67e9af5133f80e7d8e19b29d42df0f5b8b10cbbb4a705b5bf0e2d0328c4b3821": {
+    "id": "finben_fomc-fomc119",
+    "task_type": "multiple_choice",
+    "question": "Study the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: To support continued progress toward maximum employment and price stability, the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nStudy the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: To support continued progress toward maximum employment and price stability, the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The assistant correctly identified the statement as indicating an easy (accommodative) policy stance, which corresponds to \u201cDOVISH\u201d. Therefore the answer \u201cA\u201d is correct.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "dovish",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "6a0d40fdf4a0aa599b95be0d671f882668467a70d568c49d7a649d225a94ecaa": {
+    "id": "pixiu_fpb-fpb3971",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Cost savings will then rise to some 20 mln eur a year from 2007 , OKO said .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Cost savings will then rise to some 20 mln eur a year from 2007 , OKO said .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver\u2019s answer \u201cA\u201d (positive) is correct. The statement reports that cost savings will increase, which is a favorable development for the company and thus conveys a positive sentiment. No correction needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "643bde18a13d6cf81f0ad8938d6ea320e94e595f620260dbbec80533cdd65adf": {
+    "id": "finben_fomc-fomc332",
+    "task_type": "multiple_choice",
+    "question": "Consider the below statement from a central bank's bulletin. Identify it as HAWKISH if it supports a tightening of monetary policy, DOVISH if it hints at an easing of monetary policy, or NEUTRAL if the stance is balanced. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Despite the uncertainties, the consensus estimates of the NAIRU and the growth of potential give us a hint about what type of landing we should be aiming for and which of the scenarios depicted in figure 1 best describe the economy's initial conditions and prospects.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "Answer: C\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nConsider the below statement from a central bank's bulletin. Identify it as HAWKISH if it supports a tightening of monetary policy, DOVISH if it hints at an easing of monetary policy, or NEUTRAL if the stance is balanced. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Despite the uncertainties, the consensus estimates of the NAIRU and the growth of potential give us a hint about what type of landing we should be aiming for and which of the scenarios depicted in figure 1 best describe the economy's initial conditions and prospects.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: C\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "33b2a0471aaf47bb87d7d0025d2cd00d8eda36424d340ddee8890f94ee3ad7e5": {
+    "id": "pixiu_fpb-fpb3901",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The company anticipates its turnover for the whole 2010 to surpass that of the previous year when it was EUR 67.1 million .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The company anticipates its turnover for the whole 2010 to surpass that of the previous year when it was EUR 67.1 million .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver\u2019s answer is correct. No changes needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "884355ac05dbc260ab1899cef941cafb07c46fa8560506337a00c40020feeb6d": {
+    "id": "finben_fomc-fomc111",
+    "task_type": "multiple_choice",
+    "question": "Study the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The Committee's accompanying statement indicated that economic growth had been quite strong so far this year.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nStudy the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The Committee's accompanying statement indicated that economic growth had been quite strong so far this year.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "hawkish",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "e1b06ea92bca1a41fd94741ef8d065179100706ff2689ab202ea8fcedc831e41": {
+    "id": "pixiu_fpb-fpb4568",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Below are unaudited consolidated results for Aspocomp Group under IFRS reporting standards .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Below are unaudited consolidated results for Aspocomp Group under IFRS reporting standards .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver correctly identified the statement as neutral in sentiment. No correction is needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "0730d04a0a0f0e4fde50d5584960c7fe063e67b75bcf1f8c2d75e138c4dee3c7": {
+    "id": "finben_fomc-fomc3",
+    "task_type": "multiple_choice",
+    "question": "Study the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The available data for October suggested that the contribution of the change in net exports to real GDP growth in the fourth quarter would be much less negative than the drag of nearly 2 percentage points in the third quarter.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "Answer: C\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nStudy the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The available data for October suggested that the contribution of the change in net exports to real GDP growth in the fourth quarter would be much less negative than the drag of nearly 2 percentage points in the third quarter.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver\u2019s answer is correct. The sentence is a neutral statement about economic data and does not imply a hawkish or dovish stance, so the appropriate label is C.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: C\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "d501fcac14025cec56e93cdcf7dbe6557c722ee7cd62f25b52f49a1ca94917ae": {
+    "id": "pixiu_fpb-fpb4630",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: No financial details were revealed .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: No financial details were revealed .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver correctly identified the sentiment as neutral and chose option **B**, which matches the expected answer. No changes are needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "71de742be16c31da1382432f64990dc406cbb57910ac082c8d646eba91b78dd1": {
+    "id": "finben_fomc-fomc142",
+    "task_type": "multiple_choice",
+    "question": "Examine the excerpt from a central bank's release below. Classify it as HAWKISH if it advocates for a tightening of monetary policy, DOVISH if it suggests an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Holiday shopping reportedly was relatively solid, and, reflecting the improvement in the housing market, demand for home furnishings and construction materials was up.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "B",
+    "prediction": "C",
+    "correct": false,
+    "raw_response": "Answer: C\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nExamine the excerpt from a central bank's release below. Classify it as HAWKISH if it advocates for a tightening of monetary policy, DOVISH if it suggests an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Holiday shopping reportedly was relatively solid, and, reflecting the improvement in the housing market, demand for home furnishings and construction materials was up.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver's response is incorrect. The excerpt merely reports economic activity without suggesting any monetary policy direction, so it should be classified as **NEUTRAL**. The correct answer format requires a single label, which is **C**.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: C\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "hawkish",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "1b029b37260b2291cef0a7cce0e179e348f67aa8b17398f4026146f6e8688690": {
+    "id": "finben_fomc-fomc359",
+    "task_type": "multiple_choice",
+    "question": "Study the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: participants generally expected no more than moderate growth in consumer spending over the near term.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "Answer: C\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nStudy the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: participants generally expected no more than moderate growth in consumer spending over the near term.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The assistant correctly identified that the statement is neutral regarding monetary policy and chose label **C**, which corresponds to \u201cneutral.\u201d No errors are present.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: C\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "5f183c8f661a7cb5e2dd4509957e4721047e517d75fc7f73e8381b34d9b0c9c7": {
+    "id": "finben_fomc-fomc308",
+    "task_type": "multiple_choice",
+    "question": "Assess the following statement from a central bank's circular. Indicate it as HAWKISH if it conveys a tightening of monetary policy, DOVISH if it insinuates an easing of monetary policy, or NEUTRAL if the stance is dispassionate. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Real yields increased more than their nominal counterparts, while inflation compensation implied by Treasury Inflation-Protected Securities declined.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "B",
+    "correct": false,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAssess the following statement from a central bank's circular. Indicate it as HAWKISH if it conveys a tightening of monetary policy, DOVISH if it insinuates an easing of monetary policy, or NEUTRAL if the stance is dispassionate. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Real yields increased more than their nominal counterparts, while inflation compensation implied by Treasury Inflation-Protected Securities declined.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver correctly identified the correct choice. The statement suggests a tightening stance (hawkish), and the answer \u201cB\u201d matches the required format. No correction is needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "7e1e694aae8b3d2e90dcb03e04a48988677efc28f25f45da9b200b3868cc1e29": {
+    "id": "pixiu_fpb-fpb3908",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: In addition to fireplace exports , demand for lining stone has exceeded the level of the earlier part of the year and will continue to be clearly brisker for the remainder of the year .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: In addition to fireplace exports , demand for lining stone has exceeded the level of the earlier part of the year and will continue to be clearly brisker for the remainder of the year .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "160a66b270c90355421378401dc01eadc08ce857f68c4fc87d0bd23631f8d9d1": {
+    "id": "finben_fomc-fomc279",
+    "task_type": "multiple_choice",
+    "question": "Analyse the following sentence from a central bank's report. Tag it as HAWKISH if it alludes to a tightening of the monetary policy, DOVISH if it implies an easing of the monetary policy, or NEUTRAL if the stance is impartial. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Already, various trimmed price indexes are running much closer to 2 percent.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "C\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyse the following sentence from a central bank's report. Tag it as HAWKISH if it alludes to a tightening of the monetary policy, DOVISH if it implies an easing of the monetary policy, or NEUTRAL if the stance is impartial. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Already, various trimmed price indexes are running much closer to 2 percent.\nAnswer:\n\nChoices:\nA. dovish\nB. hawkish\nC. neutral\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "C\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  }
+}

@@ -1,0 +1,1107 @@
+{
+  "33b2a0471aaf47bb87d7d0025d2cd00d8eda36424d340ddee8890f94ee3ad7e5": {
+    "id": "pixiu_fpb-fpb3901",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The company anticipates its turnover for the whole 2010 to surpass that of the previous year when it was EUR 67.1 million .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The company anticipates its turnover for the whole 2010 to surpass that of the previous year when it was EUR 67.1 million .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver\u2019s answer is correct. No changes needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "8b7fab3b8f188461d44336551f48b9394bf82b1e260fdeeec263f4e6e67f1040": {
+    "id": "pixiu_fpb-fpb3906",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: ` By separating side businesses we will be able to faster expand and develop Tapro retail network .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: ` By separating side businesses we will be able to faster expand and develop Tapro retail network .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver\u2019s answer \u201cA\u201d (positive) is correct. The statement expresses optimism about expanding the retail network, which is a positive sentiment.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "7e1e694aae8b3d2e90dcb03e04a48988677efc28f25f45da9b200b3868cc1e29": {
+    "id": "pixiu_fpb-fpb3908",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: In addition to fireplace exports , demand for lining stone has exceeded the level of the earlier part of the year and will continue to be clearly brisker for the remainder of the year .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: In addition to fireplace exports , demand for lining stone has exceeded the level of the earlier part of the year and will continue to be clearly brisker for the remainder of the year .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "8ddc4799284e320d7fa53489988772747a18763198901ec620dc489053eed49f": {
+    "id": "pixiu_fpb-fpb3965",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The company 's operating income ( EBIT ) totalled EUR 0.0 mn , up from EUR -0.3 mn year-on-year .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The company 's operating income ( EBIT ) totalled EUR 0.0 mn , up from EUR -0.3 mn year-on-year .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "6a0d40fdf4a0aa599b95be0d671f882668467a70d568c49d7a649d225a94ecaa": {
+    "id": "pixiu_fpb-fpb3971",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Cost savings will then rise to some 20 mln eur a year from 2007 , OKO said .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Cost savings will then rise to some 20 mln eur a year from 2007 , OKO said .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver\u2019s answer \u201cA\u201d (positive) is correct. The statement reports that cost savings will increase, which is a favorable development for the company and thus conveys a positive sentiment. No correction needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "b274d486877ced12320908bcd9e5d4863846551fdc6224e056de7725b527aae2": {
+    "id": "pixiu_fpb-fpb3980",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Ruukki has signed a contract to deliver and install the steel structures for a bridge over the Kyronsalmi strait in Savonlinna , Finland .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "B",
+    "correct": false,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Ruukki has signed a contract to deliver and install the steel structures for a bridge over the Kyronsalmi strait in Savonlinna , Finland .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "5a51ab60a707df1503fed674fa365a2739200f1f03800324a98ed490b16ef5c9": {
+    "id": "pixiu_fpb-fpb3990",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: - UPM-Kymmene upgraded to ` in-line ' from ` underperform ' by Goldman Sachs .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: - UPM-Kymmene upgraded to ` in-line ' from ` underperform ' by Goldman Sachs .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver correctly identified that an upgrade from \u201cunderperform\u201d to \u201cin\u2011line\u201d conveys a positive sentiment, and chose label\u202fA, which matches the required output format. No correction needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Final",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Final",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "3ecc2c37f776252c47244f90fd370a8ad81ac310be12a977ddfe86a5b7cbfba5": {
+    "id": "pixiu_fpb-fpb4018",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Sponda will record a profit from the sale of 8.5 mln euro ($ 12.4 mln).\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Sponda will record a profit from the sale of 8.5 mln euro ($ 12.4 mln).\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "35d3c8f9a3807339535d85d9cb9011a1542d50cd6f2c4395d1b750499acb0c64": {
+    "id": "pixiu_fpb-fpb4104",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Operating profit rose to EUR 4.7 mn from EUR 4.6 mn .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Operating profit rose to EUR 4.7 mn from EUR 4.6 mn .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The answer \u201cA\u201d (positive) correctly reflects the sentiment of the statement. No changes are needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "31581adb5f1c93a22a8d09d7dc7c5e640feb0265e788626e753879472da4a42b": {
+    "id": "pixiu_fpb-fpb4126",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Kalnapilio-Tauro Grupe ( Kalnapilis-Tauras Group ) , which is owned by Denmark 's Royal Unibrew , raised its market share to 25.18 percent from 23.74 percent , as beer sales for the seven months jumped by 14.5 percent to 40.5 million liters .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "Answer: A\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Kalnapilio-Tauro Grupe ( Kalnapilis-Tauras Group ) , which is owned by Denmark 's Royal Unibrew , raised its market share to 25.18 percent from 23.74 percent , as beer sales for the seven months jumped by 14.5 percent to 40.5 million liters .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver\u2019s answer \u201cA\u201d (positive) is correct. The statement highlights increased market share and higher sales, which conveys a positive sentiment. No correction needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: A\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "be089ee5b6d561c6b57fd4590aa3b8a55d6dc1961983204ed76507fb3b176db8": {
+    "id": "pixiu_fpb-fpb4157",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Operating loss before non-recurring items was EUR 0.9 mn , compared to a profit of EUR 11.5 mn in 2008 .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "Answer: C\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Operating loss before non-recurring items was EUR 0.9 mn , compared to a profit of EUR 11.5 mn in 2008 .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The assistant correctly identified the sentiment as negative and chose the appropriate label \u201cC\u201d. No errors are present.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: C\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "negative",
+      "label_index": 2,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "3571fb942ebb46ed895c03574251a41b469e44280d2bd20182ea21a7c331de0f": {
+    "id": "pixiu_fpb-fpb4308",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The emerging markets that Raisio has chosen to enter so far are marked by relatively low per capita food consumption .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The emerging markets that Raisio has chosen to enter so far are marked by relatively low per capita food consumption .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver\u2019s response is invalid because it provides two labels (\u201cB\u201d and \u201cC\u201d) instead of a single one, violating the required answer format. The statement is a factual observation without positive or negative connotation, so the correct sentiment label is neutral.\n\n**Correct answer:** B",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "7995235f90859830d0e9cbe7ff3e6bf5ce70e2b75277487b6224806dbb3fa900": {
+    "id": "pixiu_fpb-fpb4434",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: `` Of course , we are in talks with all those coming up with new projects that involve material handling , '' Konecranes President and CEO Pekka Lundmark said , when asked whether it was talking to Reliance Industries for supplying equipment to its upcoming refinery in Jamnagar .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: `` Of course , we are in talks with all those coming up with new projects that involve material handling , '' Konecranes President and CEO Pekka Lundmark said , when asked whether it was talking to Reliance Industries for supplying equipment to its upcoming refinery in Jamnagar .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "**Critique**\n\nThe solver's response is invalid for two reasons:\n\n1. **Incorrect Output Format** \u2013 The task requires a single label (A, B, or C) with no explanation. The solver returned two labels (`B` and `A`) on separate lines, violating the format.\n\n2. **Sentiment Classification Ambiguity** \u2013 The statement is primarily an informational corporate quote about being in talks for new projects. It does not convey a clearly positive or negative sentiment; it is best interpreted as **neutral**. Therefore the correct single label should be **B**.\n\n**Corrected Answer**\n\nB",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "7473e8874ff0f96c81e4b62be6a999fa3d179aca9fe06ed72fa98be34760a8f8": {
+    "id": "pixiu_fpb-fpb4480",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: No service pricing details were disclosed .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: No service pricing details were disclosed .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver correctly identified the sentiment as neutral and chose option B, which matches the expected answer. No corrections are needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "65498839ed23d4cf6d8c4e1acbb34e5156620333b40a3f5c402046bd58835b10": {
+    "id": "pixiu_fpb-fpb4530",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: `` This agreement is a direct result of LCC 's strategy and plan that was announced earlier this year , '' said Dean Douglas , LCC 's chief executive officer .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: `` This agreement is a direct result of LCC 's strategy and plan that was announced earlier this year , '' said Dean Douglas , LCC 's chief executive officer .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solution\u2019s answer \u201cB\u201d (neutral) is correct. The statement is factual and does not convey a positive or negative tone, so neutral is the appropriate sentiment label.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "e1b06ea92bca1a41fd94741ef8d065179100706ff2689ab202ea8fcedc831e41": {
+    "id": "pixiu_fpb-fpb4568",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Below are unaudited consolidated results for Aspocomp Group under IFRS reporting standards .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Below are unaudited consolidated results for Aspocomp Group under IFRS reporting standards .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver correctly identified the statement as neutral in sentiment. No correction is needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "d501fcac14025cec56e93cdcf7dbe6557c722ee7cd62f25b52f49a1ca94917ae": {
+    "id": "pixiu_fpb-fpb4630",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: No financial details were revealed .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: No financial details were revealed .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver correctly identified the sentiment as neutral and chose option **B**, which matches the expected answer. No changes are needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "7117c26da9125bdc2a9b0c234f15b327fc6d462d6aac263637addfd2f8508bdf": {
+    "id": "pixiu_fpb-fpb4634",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The appointments will be in force until the new CEO has been appointed .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The appointments will be in force until the new CEO has been appointed .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "836d96ddc1e8d74a07e96f08cb0168574842898c27456e44c5c64d1b9de18a0f": {
+    "id": "pixiu_fpb-fpb4635",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The first phase will be completed by the end of 2012 .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The first phase will be completed by the end of 2012 .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The assistant\u2019s answer is correct. \u201cThe first phase will be completed by the end of 2012.\u201d is a factual statement with no inherent positive or negative sentiment, so the appropriate label is neutral (B).",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  },
+  "c78504145f1a148cef6838ef379f808014111377b2b0f5d8044b06576611f79d": {
+    "id": "pixiu_fpb-fpb4789",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The interim report for the first quarter is published on May 8 , 2009 .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "Answer: B\nTERMINATE",
+    "trace": [
+      {
+        "content": "Question:\nAnalyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The interim report for the first quarter is published on May 8 , 2009 .\nAnswer:\n\nChoices:\nA. positive\nB. neutral\nC. negative\n\n\nAnswer format: A/B/C/D\nReturn only the answer. No explanation.\n\nValid labels: A, B, C\nReturn only one label.",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello everyone. We have assembled a great team today to answer questions and solve tasks. In attendance are:\n\nPlanner: Name: Planner\nSolver: Name: Solver\nCritic: Name: Critic\nFinal: Name: Final\nUser_Proxy: A computer terminal that performs no other action than running Python scripts (provided to it quoted in ```python code blocks), or sh shell scripts (provided to it quoted in ```sh code blocks).",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Planner",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "name": "Solver",
+        "role": "user"
+      },
+      {
+        "content": "The solver correctly identified the statement as neutral and selected the appropriate label\u202fB. No errors were found; no correction is needed.",
+        "name": "Critic",
+        "role": "user"
+      },
+      {
+        "content": "Answer: B\nTERMINATE",
+        "name": "Final",
+        "role": "user"
+      }
+    ],
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1,
+      "finrobot_tool_info": {},
+      "finrobot_mode": "full",
+      "retry_used": 0
+    }
+  }
+}

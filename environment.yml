@@ -1,0 +1,28 @@
+name: cs263_project  # comment
+channels:  # comment
+  - conda-forge  # comment
+dependencies:  # comment
+  - python=3.10  # comment
+  - pip  # comment
+  - pip:  # comment
+      - openai>=1.0.0  # comment
+      - pyautogen[retrievechat]==0.2.19  # comment
+      - datasets>=2.18.0  # comment
+      - pandas>=1.5.0  # comment
+      - numpy>=1.23.0  # comment
+      - tqdm>=4.66.0  # comment
+      - pyyaml>=6.0  # comment
+      - rich>=13.0  # comment
+      - requests>=2.31.0  # comment
+      - ipython>=8.0.0  # comment
+      - typing_extensions>=4.0.0  # comment
+      - finnhub-python>=2.4.0  # comment
+      - yfinance>=0.2.28  # comment
+      - sec-api>=1.0.0  # comment
+      - praw>=7.7.0  # comment
+      - mplfinance>=0.12.9b7  # comment
+      - matplotlib>=3.7.0  # comment
+      - backtrader>=1.9.78  # comment
+      - reportlab>=4.0.0  # comment
+      - PyPDF2>=3.0.0  # comment
+      - pytest>=7.0.0  # comment

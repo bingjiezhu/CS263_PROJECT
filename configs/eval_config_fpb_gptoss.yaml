@@ -1,0 +1,39 @@
+provider: ollama
+base_url: http://localhost:11434/v1/
+model: gpt-oss:120b-cloud
+gemini_api_key_env: GEMINI_API_KEY
+max_samples: 20
+max_samples_per_dataset: 20
+seed: 42
+temperature: 0
+output_dir: outputs/runs
+use_cache: true
+run_baseline: true
+run_agent: true
+ablations:
+- agent_no_critic
+finrobot:
+  mode: full
+  workflow: group_chat
+  enable_tools: false
+  max_turns: 6
+  retry_on_invalid: true
+  max_retries: 1
+  manual_mode: false
+  toolsets: []
+  rag:
+    enabled: false
+    docs_path: []
+  code_execution:
+    enabled: false
+    work_dir: finrobot_codegen
+datasets:
+- name: pixiu_fpb
+  enabled: true
+  hf_path: TheFinAI/flare-fpb
+  split: test
+  task_type: multiple_choice
+  question_field: query
+  choices_field: choices
+  label_field: gold
+  label_type: index

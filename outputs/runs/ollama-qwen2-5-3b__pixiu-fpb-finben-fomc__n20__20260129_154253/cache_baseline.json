@@ -1,0 +1,422 @@
+{
+  "06cda2f75da16ef1c6338af23fac1210b5cd12124d6ce17ba930f9ec63b680f6": {
+    "id": "finben_fomc-fomc112",
+    "task_type": "multiple_choice",
+    "question": "Scrutinize the sentence provided from a central bank's press release. Determine it as HAWKISH if it proposes a tightening of monetary policy, DOVISH if it discloses an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: However, with longer-term interest rates already very low, there did not appear to be a need for enhanced forward guidance at this juncture or much scope for forward guidance to put additional downward pressure on yields.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "C",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2
+    }
+  },
+  "7d6b4d63c5068fbb4fc41ae2910d22061186d55f2151c6c1e724a8df6d1c00d1": {
+    "id": "pixiu_fpb-fpb4635",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The first phase will be completed by the end of 2012 .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "ffb0911ba81a973814873932380094f831e5dadc0e9016b2d108ec2d786650d1": {
+    "id": "finben_fomc-fomc287",
+    "task_type": "multiple_choice",
+    "question": "Review the sentence from a central bank's communiqu\u00e9. Designate it as HAWKISH if it expresses a tightening of monetary policy, DOVISH if it reveals an easing of monetary policy, or NEUTRAL if the stance is detached. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Certainly, if we are to remain preeminent in transforming knowledge into economic value, the U.S. system of higher education must remain the world's leader in generating scientific and technological breakthroughs and in preparing workers to meet the evolving demands for skilled labor.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "C",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2
+    }
+  },
+  "52f7e2e017ae2923bdc5ffabfc1af2e4b6b7c97a5ca596ccf388755fd3e90bd6": {
+    "id": "finben_fomc-fomc101",
+    "task_type": "multiple_choice",
+    "question": "Review the sentence from a central bank's communiqu\u00e9. Designate it as HAWKISH if it expresses a tightening of monetary policy, DOVISH if it reveals an easing of monetary policy, or NEUTRAL if the stance is detached. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: However, indicators of economic activity in Japan and Brazil remained weak.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "C",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2
+    }
+  },
+  "665e322c9cdf03ae6fe09b2fe5f8f67cd0461ea81f862da2d516065dcaded6dd": {
+    "id": "finben_fomc-fomc445",
+    "task_type": "multiple_choice",
+    "question": "Consider the below statement from a central bank's bulletin. Identify it as HAWKISH if it supports a tightening of monetary policy, DOVISH if it hints at an easing of monetary policy, or NEUTRAL if the stance is balanced. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: To do that you've got to have price stability, and we've got to get back to price stability so that we can have a labor market where people's wages aren't being eaten up by inflation and where we can have a long expansion too.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "hawkish",
+      "label_index": 1
+    }
+  },
+  "90bb1dfed9df7feea42bd661f8d99e3e4250c503537396bb8afba319a02b622c": {
+    "id": "pixiu_fpb-fpb4018",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Sponda will record a profit from the sale of 8.5 mln euro ($ 12.4 mln).\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "b15629cd3377dedd8d4bff3c7dff0ad96a77fbb95749021e4d12fd5e947c4657": {
+    "id": "finben_fomc-fomc301",
+    "task_type": "multiple_choice",
+    "question": "Dissect the given sentence from a central bank's transcript. Tag it as HAWKISH if it denotes a tightening of monetary policy, DOVISH if it implies an easing of monetary policy, or NEUTRAL if the stance is impartial. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: That ex post relationship, the correlation between actual--instead of intended--domestic saving and domestic investment was the object of the seminal work by Feldstein and Horioka a quarter century ago.4 Without the evident worldwide fall in home bias over the past decade, noted earlier, the United States would not have been able to finance its recent current account deficits, and, accordingly, these deficits would have been smaller.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "C",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2
+    }
+  },
+  "3a66487dfcbe14945e1081f13b424f5ede29489c98a2c58dacf50c7593a8d35d": {
+    "id": "finben_fomc-fomc119",
+    "task_type": "multiple_choice",
+    "question": "Study the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: To support continued progress toward maximum employment and price stability, the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "dovish",
+      "label_index": 0
+    }
+  },
+  "e4a871023f269d07393923d071ba863da433c11160ba99c0ab44d01241c89e13": {
+    "id": "pixiu_fpb-fpb3971",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Cost savings will then rise to some 20 mln eur a year from 2007 , OKO said .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "B",
+    "correct": false,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "23aabeda5b5801102f99cdaee0ffbb5c9aeae8ca21e6cb2cced4a03aa13b07cc": {
+    "id": "finben_fomc-fomc332",
+    "task_type": "multiple_choice",
+    "question": "Consider the below statement from a central bank's bulletin. Identify it as HAWKISH if it supports a tightening of monetary policy, DOVISH if it hints at an easing of monetary policy, or NEUTRAL if the stance is balanced. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Despite the uncertainties, the consensus estimates of the NAIRU and the growth of potential give us a hint about what type of landing we should be aiming for and which of the scenarios depicted in figure 1 best describe the economy's initial conditions and prospects.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "C",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2
+    }
+  },
+  "45854c79b13774bd1c9e3e928e9bbcda16d2f2bf708a7d8d86bb8ec7770b4769": {
+    "id": "pixiu_fpb-fpb3901",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: The company anticipates its turnover for the whole 2010 to surpass that of the previous year when it was EUR 67.1 million .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "0ee1f801f03361a4e6ac966cf6b148a2c571343c7dd9de37e0ed3ce8e57b4c31": {
+    "id": "finben_fomc-fomc111",
+    "task_type": "multiple_choice",
+    "question": "Study the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The Committee's accompanying statement indicated that economic growth had been quite strong so far this year.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "B",
+    "prediction": "C",
+    "correct": false,
+    "raw_response": "C",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "hawkish",
+      "label_index": 1
+    }
+  },
+  "53e65ea87e7bf6df4ee8ae2b4c75527559c5518814183f72b40c841dbec818a6": {
+    "id": "pixiu_fpb-fpb4568",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: Below are unaudited consolidated results for Aspocomp Group under IFRS reporting standards .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "c41d495b4b1e8672060c58e8ea820ed782d044aed876416b4feb692899cf9212": {
+    "id": "finben_fomc-fomc3",
+    "task_type": "multiple_choice",
+    "question": "Study the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The available data for October suggested that the contribution of the change in net exports to real GDP growth in the fourth quarter would be much less negative than the drag of nearly 2 percentage points in the third quarter.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "B",
+    "correct": false,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2
+    }
+  },
+  "ed8fa55decd778589e6eda3cb458ef7aa5dcdb0b9c1a76d4cfb0b02350e3d97e": {
+    "id": "pixiu_fpb-fpb4630",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: No financial details were revealed .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "B",
+    "prediction": "B",
+    "correct": true,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 1
+    }
+  },
+  "7e99fc195713affc9575c07a46e08087257181ce4e38325b98c5049e3ee942f0": {
+    "id": "finben_fomc-fomc142",
+    "task_type": "multiple_choice",
+    "question": "Examine the excerpt from a central bank's release below. Classify it as HAWKISH if it advocates for a tightening of monetary policy, DOVISH if it suggests an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Holiday shopping reportedly was relatively solid, and, reflecting the improvement in the housing market, demand for home furnishings and construction materials was up.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "B",
+    "prediction": "C",
+    "correct": false,
+    "raw_response": "C",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "hawkish",
+      "label_index": 1
+    }
+  },
+  "b998699fbd7697386ed4336f500b9c035ee3cf4feb440e1aa8d3778909bcd0dc": {
+    "id": "finben_fomc-fomc359",
+    "task_type": "multiple_choice",
+    "question": "Study the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: participants generally expected no more than moderate growth in consumer spending over the near term.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "C",
+    "correct": true,
+    "raw_response": "C",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2
+    }
+  },
+  "8dfb424bdf5d08716a81753fce03a1264e25230a7f5d1326a3f7ad78fe3f5f0d": {
+    "id": "finben_fomc-fomc308",
+    "task_type": "multiple_choice",
+    "question": "Assess the following statement from a central bank's circular. Indicate it as HAWKISH if it conveys a tightening of monetary policy, DOVISH if it insinuates an easing of monetary policy, or NEUTRAL if the stance is dispassionate. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Real yields increased more than their nominal counterparts, while inflation compensation implied by Treasury Inflation-Protected Securities declined.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "B",
+    "correct": false,
+    "raw_response": "B",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2
+    }
+  },
+  "95ad68f4ddec3f3f28446cd5ca8352c824dd36344f3ac612880e35943852698c": {
+    "id": "pixiu_fpb-fpb3908",
+    "task_type": "multiple_choice",
+    "question": "Analyze the sentiment of this statement extracted from a financial news article. Provide your answer as either negative, positive, or neutral.\nText: In addition to fireplace exports , demand for lining stone has exceeded the level of the earlier part of the year and will continue to be clearly brisker for the remainder of the year .\nAnswer:",
+    "choices": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "label": "A",
+    "prediction": "A",
+    "correct": true,
+    "raw_response": "A",
+    "meta": {
+      "dataset": "pixiu_fpb",
+      "hf_path": "TheFinAI/flare-fpb",
+      "split": "test",
+      "label_text": "positive",
+      "label_index": 0
+    }
+  },
+  "accffe45d982249374155da7ee0bbe002b107083c589167a762fb0d4a5e48fa3": {
+    "id": "finben_fomc-fomc279",
+    "task_type": "multiple_choice",
+    "question": "Analyse the following sentence from a central bank's report. Tag it as HAWKISH if it alludes to a tightening of the monetary policy, DOVISH if it implies an easing of the monetary policy, or NEUTRAL if the stance is impartial. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Already, various trimmed price indexes are running much closer to 2 percent.\nAnswer:",
+    "choices": [
+      "dovish",
+      "hawkish",
+      "neutral"
+    ],
+    "label": "C",
+    "prediction": "INVALID",
+    "correct": false,
+    "raw_response": "D",
+    "meta": {
+      "dataset": "finben_fomc",
+      "hf_path": "TheFinAI/finben-fomc",
+      "split": "test",
+      "label_text": "neutral",
+      "label_index": 2
+    }
+  }
+}

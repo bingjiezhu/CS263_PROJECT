@@ -1,0 +1,51 @@
+provider: ollama  # comment
+# Ollama OpenAI-compat endpoint  # comment
+base_url: "http://localhost:11434/v1/"  # comment
+model: "gpt-oss:120b-cloud"  # comment
+gemini_api_key_env: GEMINI_API_KEY  # comment
+
+# Sampling & run controls
+max_samples: 50  # comment
+max_samples_per_dataset: 50  # comment
+seed: 42  # comment
+temperature: 0  # comment
+output_dir: outputs/runs  # comment
+use_cache: true  # comment
+
+# Which systems to run
+run_baseline: true  # comment
+run_agent: true  # comment
+ablations:  # comment
+  - agent_no_critic  # comment
+  # comment
+# FinRobot full-mode configuration  # comment
+finrobot:  # comment
+  mode: full  # comment
+  workflow: group_chat  # comment
+  enable_tools: false  # comment
+  max_turns: 6  # comment
+  retry_on_invalid: true  # comment
+  max_retries: 1  # comment
+  api_max_retries: 3  # comment
+  api_retry_delay: 1.0  # comment
+  manual_mode: false  # comment
+  toolsets: []  # comment
+  rag:  # comment
+    enabled: false  # comment
+    docs_path: []  # comment
+  code_execution:  # comment
+    enabled: false  # comment
+    work_dir: finrobot_codegen  # comment
+
+# Dataset list (PIXIU)
+datasets:  # comment
+  - name: pixiu_cfa  # comment
+    enabled: true  # comment
+    hf_path: "TheFinAI/flare-cfa"  # comment
+    split: test  # comment
+    task_type: multiple_choice  # comment
+    question_field: query  # comment
+    context_field: text  # comment
+    choices_field: choices  # comment
+    label_field: gold  # comment
+    label_type: index  # comment
